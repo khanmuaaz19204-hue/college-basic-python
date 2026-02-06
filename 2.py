@@ -1,5 +1,6 @@
-x=int(input("Enter a number"))
-if x==2:
-    print("Even number")
-else:
-    print("odd number")
+sum=0
+i=0
+while i<11:
+    sum+=i
+    i+=1
+print(sum)
