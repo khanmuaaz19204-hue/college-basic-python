@@ -1,0 +1,11 @@
+class Rectangle:
+    def __init__(self,length,breadth):
+        self.length=length
+        self.breadth=breadth
+    def cal_area(self):
+        area=self.length*self.breadth
+        print("Area of rectangle:",area)
+r=Rectangle(40,2)
+r.cal_area()
+    
+
