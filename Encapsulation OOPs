@@ -1,0 +1,11 @@
+class Account:
+    def __init__(self,account_no,balance):
+        self.account_no=account_no
+        self._balance=balance
+    def deposit(self,amount):
+        self._balance+=amount
+    def get_balance(self):
+        return self._balance
+acc=Account(12,50000)
+acc.deposit(3000)
+print(acc.get_balance())
