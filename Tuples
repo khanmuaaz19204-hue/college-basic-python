@@ -1,0 +1,8 @@
+fruits = ("apple", "banana", "mango", "orange")
+
+fruit = input("Enter fruit name: ")
+
+if fruit in fruits:
+    print("Fruit exists in tuple")
+else:
+    print("Fruit not found")
