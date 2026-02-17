@@ -1,0 +1,35 @@
+import math
+print("Addition:",mymath.add(10,5))
+print("Subtraction:",mymath.subtract(10,5))
+print("Square root:",mymath.sqrt(625))
+print("factorial:",math.factorial(6))
+print("ceil:",math.ceil(3.4))
+print("absolute value:",math.fabs(18))
+print("Degree:",math.sin(90))
+print("Degree:",math.cos(90))
+print("Degree:",math.tan(90))
+print("GCD:",math.gcd(60))
+
+import random
+print("1 to 10:",random.randint(1,10))
+print("float:",random.uniform(0,1))
+print("Items:",random.choice([10,20,30,40,50]))
+print("Shuffle:",random.shuffle([1,2,3,4,5]))
+print("Even no:",random.randrange(2,21,2))
+print("Integers:",random.randint(10,100))
+print("Dice rolling:",random.randint(1,6))
+fruits=['apple','banana','mango','grape','orange']
+print("fruits:",random.choice(fruits))
+
+import mymath
+print("addition:",mymath.add(10,20))
+print("subtraction:",mymath.subtract(10,20))
+print("multiply:",mymath.multiply(10,20))
+print("divide:",mymath.divide(10,20))
+print("square:",mymath.square(10))
+print("cube:",mymath.cube(6))
+print("celsius to fahrenheit:",mymath.c_to_f(10))
+print("fahrenheit to celsius:",mymath.f_to_c(50))
+print("Area of circle:",mymath.Circle(10))
+print("Area of rectangle:",mymath.Rectangle(10,20))
+print("Area of triangle:",mymath.Triangle(10,20))
