@@ -1,0 +1,15 @@
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","w") as file1:
+   file1.write("Amaan,1,lko")
+   file1.write("\nAbdul,3,up")
+   file1.write("\nMaaz,2,fzd")
+
+#Append
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","a") as file1:
+   file1.write("\nKaran,23,Pune")
+
+#read and write mode
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","r+") as file1:
+    content=file1.readlines()
+    content[1]=content[1].replace("Abdul","Salah")
+    file1.seek(1)
+    file1.writelines(content)
