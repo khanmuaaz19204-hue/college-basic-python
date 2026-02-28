@@ -1,0 +1,15 @@
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","r") as file1:
+   content=file1.read()
+   print(content)
+
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","r") as file1:
+   content=file1.readlines()
+   print(content)
+
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","r") as file1:
+   for loop in file1:
+       print(loop)
+
+with open(r"C:\Users\91842\Desktop\python\Muaaz.txt","r") as file1:
+    content=file1.readlines()
+    print(len(content))
